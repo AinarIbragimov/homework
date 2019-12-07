@@ -13,3 +13,21 @@ for el in count(13):
 
 for el in cycle("ABC"):
     print(el)
+
+# Выше моё решение, ниже решение от преподавателя
+from itertools import (count,
+                       cycle, )
+
+def inf_numbers(start):
+    while True:
+        yield start
+        start += 1
+
+tmp = [1,2,3,4]
+cycle_iter = cycle(tmp)
+inf_numbers2 = count(2)
+
+
+
+
+

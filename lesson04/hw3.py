@@ -6,3 +6,6 @@
 
 multiples = [n for n in range(20, 240) if n % 20 == 0 or n % 21 == 0]
 print(multiples)
+# Выше выполнено мной, ниже преподавателем
+
+result = [itm for itm in range(20, 240) if not itm % 20 or not itm % 21]

@@ -12,3 +12,13 @@ counter = Counter(massiv)
 single = [x for x, n in counter.items() if n == 1]
 print(single)
 
+
+# ниже решение преподавателя
+def unique_gen(*args):
+    for itm in args:
+        if args.count(itm) == 1:
+            yield itm
+
+
+test_list = [1, 2, 3, 4, 5, 1, 4, 3, 6, 3]
+result = [itm for itm in test_list if test_list.count(itm) == 1]
