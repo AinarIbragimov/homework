@@ -1,0 +1,3 @@
+Line number 1 has 10 words.
+Line number 2 has 6 words.
+Line number 3 has 7 words.

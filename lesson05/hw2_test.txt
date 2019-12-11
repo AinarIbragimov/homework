@@ -1,0 +1,3 @@
+I want to save this is several string text and 
+ to made calculation number of lines, 
+ the number of words in each row
